@@ -1,0 +1,24 @@
+.MathValidBoxBorderAnimation{
+    border-color: rgb(251, 84, 84);
+    animation: color-change-5x 2s ease-in-out infinite alternate both;
+
+    @keyframes color-change-5x {
+            0% {
+                border-color: #19dcea;
+            }
+            25% {
+                border-color: #b22cff;
+            }
+            50% {
+                border-color: #ea2222;
+            }
+            75% {
+                border-color: #f5be10;
+            }
+            100% {
+                border-color: #3bd80d;
+            }
+          }
+        
+    
+}
